@@ -1,53 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flow Fundamentals</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
 <body>
 
-    <!-- HERO -->
-    <section class="hero">
-        <h1>Flow Fundamentals</h1>
-        <p>From overthinking to alignment</p>
-        <button onclick="scrollToSection()">Get Started</button>
-    </section>
+<div class="background-flow"></div>
 
-    <!-- PROBLEM -->
-    <section class="section light">
-        <h2>Why nothing seems to work</h2>
-        <p>You try to fix your life by thinking more, doing more, and trying more techniques.</p>
-    </section>
+<section class="hero">
+    <h1>Flow Fundamentals</h1>
+    <p>From overthinking to alignment</p>
+    <button onclick="scrollToSection()">Begin</button>
+</section>
 
-    <!-- MODEL -->
-    <section class="section dark">
+<section class="section light">
+    <div class="container">
+        <h2>The problem</h2>
+        <p>
+            You try to fix your life from the same place that created the problem.
+        </p>
+    </div>
+</section>
+
+<section class="section dark">
+    <div class="container">
         <h2>Mind • Heart • Body</h2>
+
         <div class="circles">
             <div class="circle">Mind</div>
             <div class="circle">Heart</div>
             <div class="circle">Body</div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- STEPS -->
-    <section class="section light" id="steps">
-        <h2>How it works</h2>
+<section class="section light" id="steps">
+    <div class="container">
+        <h2>The shift</h2>
+
         <div class="steps">
-            <div class="card">1. Understand</div>
-            <div class="card">2. Align</div>
-            <div class="card">3. Act</div>
+            <div class="card">Understand</div>
+            <div class="card">Align</div>
+            <div class="card">Act</div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- CTA -->
-    <section class="cta">
-        <h2>Start living in alignment</h2>
-        <button onclick="changeText()">Click Me</button>
-        <p id="cta-text"></p>
-    </section>
+<section class="cta">
+    <h2>Start living in alignment</h2>
+    <button onclick="changeText()">Enter</button>
+    <p id="cta-text"></p>
+</section>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
-</html>
