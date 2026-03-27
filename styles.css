@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #0F1C2E;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: #0F1C2E;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #C8A96A;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #C8A96A;
+    color: #0F1C2E;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.light {
+    background-color: #F5F5F2;
+    color: #2A2A2A;
+}
+
+.dark {
+    background-color: #0F1C2E;
+}
+
+/* CIRCLES */
+.circles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #C8A96A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* STEPS */
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+/* CTA */
+.cta {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #0F1C2E;
+}
